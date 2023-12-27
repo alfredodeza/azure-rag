@@ -26,9 +26,9 @@ OPENAI_API_KEY="0asd8924yl87asljhsd823lkjahsdf234"
 OPENAI_API_VERSION="2023-07-01-preview"
 
 # Azure Cognitive Search
-AZURE_COGNITIVE_SEARCH_SERVICE_NAME="https://demo-alfredo.search.windows.net"
-AZURE_COGNITIVE_SEARCH_API_KEY="zlkjhasd876lkjh234978sg098srtiuy"
-AZURE_COGNITIVE_SEARCH_INDEX_NAME="demo-index"
+SEARCH_SERVICE_NAME="https://demo-alfredo.search.windows.net"
+SEARCH_API_KEY="zlkjhasd876lkjh234978sg098srtiuy"
+SEARCH_INDEX_NAME="demo-index"
 ```
 
 Note that the Azure Cognitive Search is only needed if you are following the Retrieval Augmented Guidance (RAG) demo. It isn't required for a simple Chat application.

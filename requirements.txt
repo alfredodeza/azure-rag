@@ -3,3 +3,6 @@ langchain==0.0.329
 azure-search-documents==11.4.0b6
 openai==0.28.1
 python-dotenv==1.0.0
+fastapi==0.108.0
+uvicorn[standard]==0.25.0
+tiktoken==0.5.2
