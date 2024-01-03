@@ -33,6 +33,9 @@ SEARCH_INDEX_NAME="demo-index"
 
 Note that the Azure Cognitive Search is only needed if you are following the Retrieval Augmented Guidance (RAG) demo. It isn't required for a simple Chat application.
 
+## Generate a PAT
+
+The access token will need to be added as an Action secret. [Create one](https://github.com/settings/tokens/new?description=Azure+Container+Apps+access&scopes=write:packages) with enough permissions to write to packages. It is needed because Azure will need to authenticate against the GitHub Container Registry to pull the image.
 
 ## Create an Azure Service Principal
 
