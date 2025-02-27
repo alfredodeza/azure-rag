@@ -95,3 +95,4 @@ Note that it is a good practice to use `404 Not Found` to protect from requests 
 | GET | POST | PUT | HEAD|
 |---|---|---|---|
 | Read Only | Write Only | Update existing | Does it exist? |
+# Ativando Actions
